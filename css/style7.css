@@ -1,0 +1,262 @@
+/*body {
+    margin: 20px;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;
+}*/
+body {
+    margin: 0;
+    min-width: 960px;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #f2f2f2;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+aside {
+    background: #597ca3;
+    padding: 20px 10px 10px;
+    width: 265px;
+    float: left;
+    margin: 0px 15px 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.content_all {
+    float: right;
+    width: 1000px;
+    margin-right: 50px;
+
+}
+
+aside ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+aside ul li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 180px;
+}
+
+aside li button {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #595757;
+    border-radius: 15px;
+    width: 180px;
+    background-color: #81abe1;
+}
+
+aside li button:hover {
+    background: #efefd5;
+}
+
+aside li button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+    background: #cbd6ee
+}
+
+.container1 {
+    width: 700px;
+    margin: 0 auto;
+    padding: 35px 40px;
+}
+
+.container1 h1 {
+    font-size: 50px;
+}
+
+.site-header {
+    min-width: 770px;
+    height: 180px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+    background-image: url("../img/head33.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.lab4 {
+    border-radius: 20px;
+    padding: 20px;
+    display: block;
+    background-image: url("../img/sea.jpg");
+    background-attachment: scroll;
+    background-color: #80a6ea;
+}
+
+.lab5 {
+    border-radius: 20px;
+    padding: 20px;
+    display: block;
+    color: midnightblue;
+    background-color: #b48aa3;
+    background-image: url("../img/back2.jpg");
+    background-attachment: scroll;
+}
+
+.lab6 {
+    border-radius: 20px;
+    padding: 20px;
+    display: block;
+    background-color: mediumpurple;
+    color: papayawhip;
+    background-image: url("../img/back3.jpg");
+    background-attachment: scroll;
+}
+
+.lab456 {
+    display: none;
+}
+
+.lab4 .font1 {
+    color: darkblue;
+    font-family: Tahoma;
+    font-size: medium;
+    font-weight: bolder;
+    margin: 10px;
+    text-indent: 15px;
+}
+
+.lab4 p {
+    font-variant: small-caps;
+    color: darkblue;
+    margin: 10px;
+    text-indent: 15px;
+}
+
+.lab4 .font2 {
+    color: darkblue;
+    font-family: Tahoma;
+    font-size: medium;
+    font-weight: lighter;
+    margin: 10px;
+    text-indent: 15px;
+    text-decoration: underline;
+}
+
+.lab4 .font11 {
+    color: indigo;
+    font-family: Tahoma;
+    font-size: medium;
+    font-weight: bolder;
+    margin: 10px;
+    text-indent: 15px;
+    text-decoration: underline;
+}
+
+.lab5 h3 {
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: darkslategrey;
+}
+
+.lab5 section {
+    margin: 15px 35px;
+    padding: 20px;
+    border: 2px solid darkgray;
+    border-radius: 20px;
+}
+
+.lab5 .bottom {
+    display: inline-block;
+    width: 300px;
+}
+
+.lab5 section div button {
+    margin: 10px;
+}
+
+.lab5 section p {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 30px;
+    text-decoration: underline;
+}
+
+.lab5 section div nobr {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.lab5 input {
+    background-color: lightyellow;
+    border-radius: 5px;
+    margin: 20px;
+}
+.lab6 h2{
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: wheat;
+}
+.lab6 section{
+    margin: 15px 35px;
+    padding: 20px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+}
+.lab6 section div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lab6 section div button {
+    margin: 15px 50px 15px 50px;
+}
+.lab6 section p {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 30px;
+    text-decoration: underline;
+}
+.lab6 section div nobr {
+    font-weight: bold;
+    font-style: normal;
+
+}
+.lab6 input {
+    background-color: lightyellow;
+    border-radius: 5px;
+    margin: 20px;
+}
+.lab6 section div b{
+    font-style: italic;
+}
+.lab6 .happy {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    margin: 20px 350px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: cadetblue;
+    text-align: center;
+    line-height: 40px;
+}
+.lab6 .last{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+    width: auto;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+    color: cornflowerblue;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
